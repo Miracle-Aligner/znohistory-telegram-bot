@@ -7,8 +7,8 @@ const Telegraf = require('telegraf')
 const Extra = require('telegraf/extra')
 const Markup = require('telegraf/markup')
 
-const Users = require("./db_users.js");
-const Actions = require("./db_actions.js");
+const Users = require("./js/db_users.js");
+const Actions = require("./js/db_actions.js");
 
 const adminsList = [
     '157371788'
